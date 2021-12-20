@@ -1,0 +1,89 @@
+body{
+	margin:0;
+	padding: 0;
+	background:url("images/74198.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: sans-serif;
+	
+}
+
+.Registerbox{
+	width: 480px;
+	height: 600px;
+	background: #000;
+	color: #fff;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50%  - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.Registerbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.Registerbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Registerbox input{
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+.Registerbox input[type="text"],input[type="Password"],input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.Registerbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	
+}
+.Registerbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #e65c00;
+	color: #000;
+}
+.Registerbox a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color:darkgray;
+	
+}
+.Registerbox a:hover
+{
+	color: #e65c00;
+}
